@@ -1,0 +1,39 @@
+
+
+@import "common";
+@import "animate.css";
+@import "fonts/iconfont.css";
+@import "antd-mobile.css";
+
+$base_font:20px;
+$base_color:#333;
+
+// 全局样式  golbal 
+html,body,#app,.box,.guidee{
+    width:100vw;
+    height:100vh;
+}
+.home{
+    color:red;
+    background-color: yellow;
+    border:3px salmon solid;
+}
+.btn{
+    color:rosybrown;
+    background-color:#aaaa;
+    border:1px solid sandybrown;
+}
+.move-in{
+    animation: zoomIn 1s;
+}
+.move-out{
+    animation: rotateOut 1s;
+}
+.cl:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}

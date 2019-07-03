@@ -1,0 +1,33 @@
+
+.fenlei{
+    float: left;
+    width: 1rem;
+    text-align: center;
+    line-height: .5rem;
+    font-size: .30rem;
+    color:rosybrown;
+    font-weight: 900;
+    white-space: nowrap;
+}
+.fen{
+    overflow-x:scroll ;
+    width: 7rem;
+    padding:.4rem 0 .2rem 0;
+    // white-space: nowrap;
+}
+.lei{
+    // white-space: nowrap;
+    background-color: snow;
+    overflow-x: scroll;
+    width: 150%;
+
+}
+
+a:hover{color:red};
+a:visited{color:#cd7d32}
+
+.img2{
+    animation:1s zoomIn;
+    width:100%;
+    height:4rem;
+}
